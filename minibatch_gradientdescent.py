@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv('~/Ipynb/2/Shrey sir/train.csv', sep=',')
+df = pd.read_csv('train.csv', sep=',')
 
 class GradientDescent():
 	def __init__(self, alpha=0.000003, tolerance=0.02, max_iterations=2000):
